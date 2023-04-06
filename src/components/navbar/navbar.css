@@ -1,0 +1,116 @@
+.gpt3__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+  position: relative;
+}
+
+.gpt3__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  .gpt3__navbar-links {
+    justify-content: flex-start;
+  }
+}
+
+.gpt3__navbar-links_logo {
+  margin-inline-end: 2rem;
+}
+
+.gpt3__navbar-links_logo img {
+  width: 62px;
+  height: 16px;
+}
+
+.gpt3__navbar-links_container {
+  display: none;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.gpt3__navbar-sign {
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.25rem;
+  margin-inline-start: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .gpt3__navbar-links_container,
+  .gpt3__navbar-sign {
+    display: flex;
+  }
+}
+
+.gpt3__navbar-links_container a,
+.gpt3__navbar-sign a,
+.gpt3__navbar-mobile_container a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.gpt3__navbar-links_container a,
+.gpt3__navbar-sign a {
+  transition: color 300ms ease-in-out;
+}
+
+.gpt3__navbar-links_container a:is(:hover, :focus),
+.gpt3__navbar-sign a:is(:hover, :focus) {
+  color: var(--color-subtext);
+}
+
+.gpt3__navbar-sign button {
+  background-color: var(--color-button);
+  border: none;
+  border-radius: .3125em;
+  color: #fff;
+  cursor: pointer;
+  padding: .625em 1.5625em;
+  transition: all 300ms ease-in-out;
+}
+
+.gpt3__navbar-sign button:is(:hover, :focus) {
+  background-color: var(--color-text);
+  color: var(--color-blog);
+}
+
+.gpt3__navbar-menu_toggle {
+  display: block;
+  height: 27px;
+}
+
+@media screen and (min-width: 992px) {
+  .gpt3__navbar-menu_toggle {
+    display: none;
+  }
+}
+
+.gpt3__navbar-menu_toggle button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.gpt3__navbar-mobile_container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 2.5rem 6rem;
+  background-color: rgb(3, 27, 52, 20%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.gpt3__navbar-mobile_links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}

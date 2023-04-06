@@ -1,9 +1,13 @@
 import React from 'react'
 import './header.css'
 
+import { Navbar } from '../../components'
+
 const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+      <Navbar />
+    </header>
   )
 }
 
