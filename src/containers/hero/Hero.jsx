@@ -3,8 +3,12 @@ import './hero.css'
 
 const Hero = () => {
   return (
-    <div>
-      
+    <div class="hero">
+      <div className="wrapper">
+        <div className="hero__content">
+          
+        </div>
+      </div>
     </div>
   )
 }

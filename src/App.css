@@ -70,7 +70,7 @@ select {
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
   
   *,
@@ -89,6 +89,11 @@ select {
 body {
   background-color: var(--color-bg);
   font-family: var(--font-family);
+}
+
+/* Wrapper */
+.wrapper {
+  margin-inline: auto;
 }
 
 /* Gradients */
