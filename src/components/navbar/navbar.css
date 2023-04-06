@@ -2,8 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 6rem;
+  padding: 2rem 1.5625rem;
   position: relative;
+}
+
+@media screen and (min-width: 576px) {
+  .gpt3__navbar {
+    padding: 2rem 6rem;
+  }
 }
 
 .gpt3__navbar-links {
@@ -103,10 +109,16 @@
   top: 100%;
   left: 0;
   width: 100%;
-  padding: 2.5rem 6rem;
+  padding: 2.5rem 1.5625rem;
   background-color: rgb(3, 27, 52, 20%);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+}
+
+@media screen and (min-width: 576px) {
+  .gpt3__navbar-mobile_container {
+    padding: 2.5rem 6rem;
+  }
 }
 
 .gpt3__navbar-mobile_links-container {
