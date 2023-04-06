@@ -4,7 +4,7 @@ import React from 'react'
 import './App.css'
 
 // Components
-import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers'
+import { Hero, Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers'
 import { CTA, Brand } from './components'
 
 const App = () => {
@@ -12,6 +12,7 @@ const App = () => {
     <div className="App">
       <Header />
       <div>
+        <Hero />
         <Brand />
         <WhatGPT3 />
         <Features />

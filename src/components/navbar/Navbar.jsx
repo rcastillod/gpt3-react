@@ -31,7 +31,7 @@ const Navbar = () => {
         <nav className='gpt3__navbar-links_container'>
           <Menu />
         </nav>
-        <div className="gpt3__navbar-sign">
+        <div className="gpt3__navbar-sign desktop">
           <a href="#">Sign In</a>
           <button type="button">Sign up</button>
         </div>
@@ -58,6 +58,10 @@ const Navbar = () => {
               <nav className="gpt3__navbar-mobile_links-container">
                 <Menu />
               </nav>
+              <div className="gpt3__navbar-sign">
+                <a href="#">Sign In</a>
+                <button type="button">Sign up</button>
+              </div>
             </div>
           )
         }

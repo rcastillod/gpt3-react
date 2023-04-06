@@ -41,16 +41,25 @@
 }
 
 .gpt3__navbar-sign {
-  display: none;
+  display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 1.25rem;
   margin-inline-start: auto;
 }
 
+.gpt3__navbar-sign.desktop {
+  display: none;
+}
+
+.gpt3__navbar-sign:not(.desktop) {
+  justify-content: center;
+  margin-block-start: 3.125rem;
+}
+
 @media screen and (min-width: 992px) {
   .gpt3__navbar-links_container,
-  .gpt3__navbar-sign {
+  .gpt3__navbar-sign.desktop {
     display: flex;
   }
 }
