@@ -3,8 +3,6 @@
 :root {
   --font-family: 'Manrope', sans-serif;
 
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
   
   --color-bg: #040C18;
   --color-footer : #031B34;
@@ -12,4 +10,9 @@
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
   --color-button: #FF4820;
+  --color-gradient-from: #AE67FA;
+  --color-gradient-to: #F49867;
+  
+  --gradient-text: linear-gradient(to right, var(--color-gradient-from) 20%, var(--color-gradient-to) 40%, var(--color-gradient-to) 60%, var(--color-gradient-from) 80%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
 }
