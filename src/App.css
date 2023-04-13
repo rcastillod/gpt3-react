@@ -134,7 +134,7 @@ body {
 
 /* Sections */
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 4rem 0;
 }
 
 .section__margin {
