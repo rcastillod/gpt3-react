@@ -1,0 +1,29 @@
+.gpt3__features-container__feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+/* Title */
+.gpt3__features-container__feature-title::before {
+  content: '';
+  display: flex;
+  width: 2.375rem;
+  height: .1875rem;
+  background: var(--gradient-bar);
+}
+
+.gpt3__features-container__feature-title > h4 {
+  color: white;
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 4.6875rem;
+}
+
+
+/* Text */
+.gpt3__features-container__feature-text {
+  color: var(--color-text);
+  line-height: 1.875rem;
+}

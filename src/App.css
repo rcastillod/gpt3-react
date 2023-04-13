@@ -93,6 +93,9 @@ body {
 
 /* Wrapper */
 .wrapper {
+  --max-width: 90rem;
+  --padding: 2rem;
+  width: min(100% - var(--padding), var(--max-width));
   margin-inline: auto;
 }
 

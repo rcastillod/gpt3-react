@@ -6,7 +6,9 @@ import { Navbar } from '../../components'
 const Header = () => {
   return (
     <header>
-      <Navbar />
+      <div className="wrapper">
+        <Navbar />
+      </div>
     </header>
   )
 }
