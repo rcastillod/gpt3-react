@@ -45,6 +45,7 @@
   font-weight: 800;
   font-size: clamp(1.75rem, 5vw, 2.125rem);
   line-height: clamp(2.5rem, 5vw, 2.8125rem);
+  max-width: 29.6875rem;
 }
 
 .gpt3__whatgpt3-header > a {

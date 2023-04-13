@@ -116,6 +116,7 @@ body {
 }
 
 .gradient__text--animation {
+  background: var(--gradient-text-anim);
   background-size: 200% auto;
   background-clip: text;
   text-fill-color: transparent;
