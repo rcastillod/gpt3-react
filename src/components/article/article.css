@@ -1,0 +1,56 @@
+.gpt3__blog-container_article {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: var(--color-footer);
+}
+
+/* Image */
+.gpt3__blog-container_article-image {
+  height: 100%;
+  width: 100%;
+  
+  background-color: var(--color-footer);
+}
+
+.gpt3__blog-container_article-image img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Content */
+.gpt__blog-container_article-content {
+  color: white;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 1rem 2rem;
+  height: 100%;
+}
+
+.gpt__blog-container_article-content p,
+.gpt__blog-container_article-content a {
+  font-weight: 700;
+  font-size: .75rem;
+  line-height: 2.1875rem;
+}
+
+.gpt__blog-container_article-content h3 {
+  font-weight: 800;
+  font-size: clamp(1.125rem, 7vw 1.5625rem);
+  line-height: clamp(1.4375rem, 7vw 1.875rem);
+  margin-block-end: 5rem;
+}
+
+.gpt__blog-container_article-content a {
+  transition: color 300ms ease-in-out;
+}
+
+.gpt__blog-container_article-content a:is(:hover, :focus) {
+  color: var(--color-text)
+}
