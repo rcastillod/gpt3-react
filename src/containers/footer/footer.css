@@ -1,0 +1,135 @@
+.gpt3__footer {
+  background-color: var(--color-footer);
+  color: white;
+  padding-block-end: 0;
+}
+
+.gpt3__footer .section__padding {
+  padding-block-end: 0;
+}
+
+/* Heading */
+.gpt3__footer-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.gpt3__footer-heading > h2{
+  font-size: clamp(2.125rem, 7vw, 3.875rem);
+  line-height: clamp(2.8125rem, 10vw, 4.6875rem);
+  margin-block-end: 3rem;
+  max-width: 56.25rem;
+  text-align: center;
+}
+
+/* Button */
+.gpt3__footer-button {
+  display: flex;
+  justify-content: center;
+}
+
+.gpt3__footer-button > a {
+  border-radius: 2.5em;
+  border: 1px solid white;
+  color: white;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  padding: .9375em 1.875em;
+  transition: all 300ms ease-in-out;
+}
+
+.gpt3__footer-button > a:is(:hover, :focus) {
+  background-color: var(--color-bg);
+  border-color: var(--color-bg);
+}
+
+/* Links */
+.gpt3__footer-links {
+  font-size: .75rem;
+  line-height: .875rem;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1.875rem;
+
+  margin-block-start: 200px;
+}
+
+@media (min-width: 36em) {
+  .gpt3__footer-links {
+    flex-direction: row;
+    gap: 0;
+  }
+}
+
+.gpt3__footer-links_logo {
+  flex: 1.5 1 100%;
+  margin-block-end: 1.875rem;
+}
+
+@media (min-width: 48em) {
+  .gpt3__footer-links_logo {
+    flex: 1.5 1;
+    margin: 0;
+  }
+}
+
+@media (max-width: 35.9375em) {
+  .gpt3__footer-links_logo {
+    margin: 0;
+  }
+}
+
+.gpt3__footer-links_logo img {
+  margin-block-end: 1.25rem;
+}
+
+.gpt3__footer-links_list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.gpt3__footer-links_list > h5 {
+  font-size: .875rem;
+  line-height: 1rem;
+  margin: 0 0 1.875rem;
+}
+
+.gpt3__footer-links_list-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+@media (min-width: 36em) {
+  .gpt3__footer-links_list > h5 {
+    margin: 0 0 2.5rem;
+  }
+  .gpt3__footer-links_list-nav {
+    gap: 1.875rem;
+  }
+}
+
+.gpt3__footer-links_list-nav > a {
+  transition: color 300ms ease-in-out;
+}
+
+.gpt3__footer-links_list-nav > a:is(:hover, :focus) {
+  color: var(--color-text);
+}
+
+/* Copyright */
+.gpt3__footer-copyright {
+  display: flex;
+  justify-content: center;
+
+  margin-block-start: 3.125rem;
+  padding-block: 1.875rem;
+
+  font-size: .75rem;
+  line-height: .875rem;
+}
