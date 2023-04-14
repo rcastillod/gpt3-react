@@ -140,7 +140,13 @@ body {
 
 /* Sections */
 .section__padding {
-  padding: 4rem 0;
+  padding: 2rem 0;
+}
+
+@media (min-width: 62em) {
+  .section__padding {
+    padding: 4rem 0;
+  }
 }
 
 .section__margin {
@@ -197,27 +203,5 @@ body {
   100% {
     -webkit-transform: translateY(10px);
             transform: translateY(10px);
-  }
-}
-
-
-/* Media queries */
-@media screen and (max-width: 700px) {
-  .section__padding {
-    padding: 4rem;
-  }
-
-  .section__margin {
-    margin: 4rem;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .section__padding {
-    padding: 4rem 2rem;
-  }
-
-  .section__margin {
-    margin: 4rem 2rem;
   }
 }
