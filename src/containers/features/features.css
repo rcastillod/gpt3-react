@@ -1,8 +1,14 @@
 .gpt3__features {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
+}
+
+@media (min-width: 62em) {
+  .gpt3__features {
+    flex-direction: row;
+  }
 }
 
 /* Header title */
@@ -12,14 +18,26 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  margin-inline-end: 5rem;
+  margin: 0 0 2rem 0;
+}
+
+@media (min-width: 62em) {
+  .gpt3__features-heading {
+    margin-inline-end: 5rem;
+  }
 }
 
 .gpt3__features-heading > h3 {
   font-weight: 800;
   font-size: clamp(1.75rem, 5vw, 2.125rem);
   line-height: clamp(2.5rem, 5vw, 2.8125rem);
-  margin-block-end: 2.1875rem;
+  margin-block-end: .625rem;
+}
+
+@media (min-width: 62em) {
+  .gpt3__features-heading > h3 {
+    margin-block-end: 2.1875rem;
+  }
 }
 
 .gpt3__features-heading > a {
@@ -40,14 +58,24 @@
 
 /* Features */
 .gpt3__features-container {
-  flex: 1.5;
+  flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  gap: 3.125rem;
 }
+
 .gpt3__features-container .gpt3__features-container__feature-title > h4 {
   font-size: 1.125rem;
   line-height: 1.5rem;
+  margin-block-start: .625rem;
+}
+
+@media (max-width: 36em) {
+  .gpt3__features-container__feature {
+    flex-direction: column;
+  }
+  .gpt3__features-container .gpt3__features-container__feature-title {
+    margin: 0 0 2rem 0;
+  }
 }
