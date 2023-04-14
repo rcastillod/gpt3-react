@@ -1,0 +1,50 @@
+.gpt3__cta {
+  background: var(--gradient-bar);
+  border-radius: .625rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+@media (min-width: 62em) {
+  .gpt3__cta {
+    flex-direction: row;
+  }
+}
+
+/* Content */
+@media (max-width: 61.9375em) {
+  .gpt3__cta-content {
+    margin-block-end: 2.1875rem;
+    text-align: center;
+  }
+}
+
+.gpt3__cta-content > p {
+  font-size: .75rem;
+  line-height: 1.875rem;
+}
+
+.gpt3__cta-content > h3 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: clamp(38px, 7vw, 2.8125rem);
+}
+
+/* Button */
+.gpt3__cta-button > a {
+  background-color: black;
+  border-radius: 2.5em;
+  color: white;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  padding: .9375em 1.875em;
+  transition: background-color 300ms ease-in-out;
+}
+
+.gpt3__cta-button > a:is(:hover, :focus) {
+  background-color: var(--color-gradient-from);
+}
