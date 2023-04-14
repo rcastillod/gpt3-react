@@ -7,7 +7,7 @@ import people from '../../assets/people.png';
 
 const Hero = () => {
   return (
-    <div class="hero gradient__bg">
+    <div id="home" class="hero gradient__bg">
       <div className="wrapper">
         <div className="hero__wrapper">
           <div className="hero__content">

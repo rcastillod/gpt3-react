@@ -23,7 +23,7 @@ const featuresData = [
 
 const Features = () => {
   return (
-    <section id="features">
+    <section id="features" class="section__padding">
       <div className="wrapper">
         <div className="gpt3__features section__padding">
           <div className="gpt3__features-heading">
