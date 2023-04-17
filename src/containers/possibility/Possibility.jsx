@@ -6,7 +6,7 @@ import possibilitiesImage from '../../assets/possibility.png'
 
 const Possibility = () => {
   return (
-    <section id="possibilities" className="section__padding">
+    <section id="possibilities" className="section__padding" data-aos="fade-up">
       <div className="wrapper">
         <div className="gpt3__possibilities">
           <div className="gpt3__possibilities-image">

@@ -7,7 +7,7 @@ import { blog01, blog02, blog03, blog04, blog05 } from './imports'
 
 const Blog = () => {
   return (
-    <section id="blog" className="section__padding">
+    <section id="blog" className="section__padding" data-aos="fade-up">
       <div className="wrapper">
         <div className="gpt3__blog section__padding">
           <div className="gpt3__blog-heading">

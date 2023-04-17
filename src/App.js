@@ -1,4 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
+// AOS
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // Main style
 import './App.css'
@@ -8,6 +12,14 @@ import { Hero, Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './c
 import { CTA, Brand } from './components'
 
 const App = () => {
+
+  // AOS init
+  useEffect(() => {
+    AOS.init({
+      duration: 1000
+    });
+  }, [])
+
   return (
     <div className="App">
       <Header />

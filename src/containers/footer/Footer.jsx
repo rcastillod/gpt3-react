@@ -6,7 +6,7 @@ import logo from '../../assets/logo.svg'
 
 const Footer = () => {
   return (
-    <footer className="gpt3__footer section__padding">
+    <footer className="gpt3__footer section__padding" data-aos="fade-up">
       <div className="wrapper">
         <div className='section__padding'>
           

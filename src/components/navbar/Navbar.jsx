@@ -11,9 +11,9 @@ const Menu = () => (
   <>
     <a href="#home">Home</a>
     <a href="#whatgpt3">What is GPT3?</a>
-    <a href="#possibility">Open AI</a>
     <a href="#features">Case Studies</a>
-    <a href="#blog">Library</a>
+    <a href="#possibilities">Open AI</a>
+    <a href="#blog">Blog</a>
   </>
 )
 

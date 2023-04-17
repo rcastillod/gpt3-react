@@ -23,7 +23,7 @@ const featuresData = [
 
 const Features = () => {
   return (
-    <section id="features" class="section__padding">
+    <section id="features" class="section__padding" data-aos="fade-up">
       <div className="wrapper">
         <div className="gpt3__features section__padding">
           <div className="gpt3__features-heading">

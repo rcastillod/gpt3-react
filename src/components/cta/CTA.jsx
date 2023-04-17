@@ -3,7 +3,7 @@ import './cta.css'
 
 const CTA = () => {
   return (
-    <section className="section__padding">
+    <section className="section__padding" data-aos="fade-up">
       <div className="wrapper">
         <div className="gpt3__cta">
           <div className="gpt3__cta-content">

@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div id="home" class="hero gradient__bg">
       <div className="wrapper">
-        <div className="hero__wrapper">
+        <div className="hero__wrapper" data-aos="fade-up">
           <div className="hero__content">
             <div className="hero__content-title">
               <h1 className="gradient__text gradient__text--animation">Let’s Build Something amazing with GPT-3 OpenAI</h1>
